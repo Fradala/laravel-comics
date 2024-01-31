@@ -1,1 +1,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+header{
+    @import "./partials/header";
+}
+
+footer{
+    @import "./partials/footer";
+}
