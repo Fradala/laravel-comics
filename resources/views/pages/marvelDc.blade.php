@@ -5,21 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="row-cols-md-4 row-cols-xl-4 g-4">
-                    @foreach ($comics as $comic)
-                        <div class="col">
-                            <div class="card">
-                                <img src="" alt="">
-                                <div class="card-body">
-                                    <p>
-                                        {{ $comic['series']}}
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    @endforeach
+                  
 
                 </div>
 
@@ -27,5 +13,36 @@
 
         </div>
 
+    </section>
+    <section class="rettangolo-blu ">
+        <div class="container">
+            <ul class="d-flex">
+                <li class="d-flex">
+                    <img class="icon" src=" {{ Vite::asset('resources/img/buy-comics-digital-comics.png') }} " alt="icona dc">
+                    <p class="text-uppercase">
+                        digital comics
+                    </p>
+                </li>
+                <li class="d-flex">
+                    <img class="icon" src=" {{ Vite::asset('resources/img/buy-comics-digital-comics.png') }} " alt="icona dc">
+                    <p class="text-uppercase">
+                        digital comics
+                    </p>
+                </li>
+                <li class="d-flex">
+                    <img class="icon" src=" {{ Vite::asset('resources/img/buy-comics-digital-comics.png') }} " alt="icona dc">
+                    <p class="text-uppercase">
+                        digital comics
+                    </p>
+                </li>
+                <li class="d-flex">
+                    <img class="icon" src=" {{ Vite::asset('resources/img/buy-comics-digital-comics.png') }} " alt="icona dc">
+                    <p class="text-uppercase">
+                        digital comics
+                    </p>
+                </li>
+            </ul>
+        </div>
+       
     </section>
 @endsection
