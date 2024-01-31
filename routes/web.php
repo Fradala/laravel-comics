@@ -19,5 +19,8 @@ Route::get('/', function () {
 
 
 Route::get('/marvel', function () {
-    return view('pages.marvelDc');
+
+    $serie= config('db.comics');
+
+    return view('pages.marvelDc', ['comics' => $serie ]);
 });
