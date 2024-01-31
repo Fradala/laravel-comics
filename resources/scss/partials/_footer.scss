@@ -1,3 +1,5 @@
+
+
 .infosu{
     background-image: url('../img/footer-bg.jpg');
     height: 350px;
@@ -20,4 +22,30 @@ ul{
 .logo{
     width: 300px;
     height: 350px;
+}
+
+
+.fine{
+    height: 100px;
+    background-color: rgb(49, 49, 49);
+    padding: 2rem;
+
+    .bottone{
+        border: 1px solid rgb(33, 78, 226);;
+        background-color:  rgb(49, 49, 49);
+        color: white;
+        padding: 10px;
+    }
+
+    p{
+        color: rgb(33, 78, 226);
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+
+    .icona{
+        width: 40px;
+        margin-right: 10px;
+    }
 }

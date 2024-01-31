@@ -4,7 +4,7 @@
     </div>
     
     <nav class="navbar">
-        <div class="container">
+        <div class="container d-flex justify-content-evenly">
             <img class="logo" src=" {{ Vite::asset('resources/img/dc-logo.png') }} " alt="logo dc">
             <ul class="text-uppercase d-flex">
                         <li>

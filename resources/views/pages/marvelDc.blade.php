@@ -16,7 +16,7 @@
     </section>
     <section class="rettangolo-blu ">
         <div class="container">
-            <ul class="d-flex">
+            <ul class="d-flex justify-content-evenly">
                 <li class="d-flex">
                     <img class="icon" src=" {{ Vite::asset('resources/img/buy-comics-digital-comics.png') }} " alt="icona dc">
                     <p class="text-uppercase">
