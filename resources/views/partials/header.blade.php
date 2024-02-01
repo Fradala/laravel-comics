@@ -1,6 +1,14 @@
 <header>
-    <div class="rettangolo">
-
+    <div class="rettangolo container-fluid">
+        <div class="container d-flex justify-content-end">
+            <p class="me-2">
+                text
+            </p>
+            <p>
+                text
+            </p>
+        </div>
+       
     </div>
     
     <nav class="navbar">
