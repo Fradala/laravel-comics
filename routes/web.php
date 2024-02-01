@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/marvel', function () {
 
-    $serie= config('db.comics');
+    $series = config('db.comic');
 
-    return view('pages.marvelDc', ['comics' => $serie ]);
+    return view('pages.marvelDc', ['comic' => $series ]);
 });
